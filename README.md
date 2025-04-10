@@ -216,6 +216,7 @@ git clone git@github.com:ExploitEngineer/js-data-structures-algorithms.git
 
 # Move into project folder
 cd js-data-structures-algorithms
+```
 
 🙌 Contribute
 If you find bugs or want to improve the code/docs:
