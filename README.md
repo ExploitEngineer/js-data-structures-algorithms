@@ -218,12 +218,14 @@ git clone git@github.com:ExploitEngineer/js-data-structures-algorithms.git
 cd js-data-structures-algorithms
 ```
 
+---
 🙌 Contribute
 If you find bugs or want to improve the code/docs:
 
-Star ⭐ this repo
-Fork 🍴 the project
-Open a PR or Issue
+- Star ⭐ this repo
+- Fork 🍴 the project
+- Open a PR or Issue
+---
 
 📄 License
 MIT License — feel free to use, modify, or share!
