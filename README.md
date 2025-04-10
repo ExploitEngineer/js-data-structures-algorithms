@@ -1,133 +1,231 @@
-# 📚 DSA with JavaScript
+# 🧠 JS Data Structures & Algorithms
 
-Welcome to **DSA with JavaScript**, a comprehensive collection of Data Structures and Algorithms concepts, patterns, and problems – all solved in JavaScript.
+Welcome to the **JS Data Structures & Algorithms** repository!  
+This project takes you from **JavaScript basics** all the way to **advanced DSA problems**, making it a perfect companion for interviews, competitive programming, and system design preparation.
 
-This repository is maintained by [ExploitEngineer](https://github.com/ExploitEngineer) and is built for **beginners and intermediate learners** looking to master DSA for technical interviews, coding contests, and real-world problem solving.
+> 📌 Repository: `js-data-structures-algorithms`  
+> 👨‍💻 Author: [ExploitEngineer](https://github.com/ExploitEngineer)
 
 ---
 
 ## 📁 Topics Covered
 
-### ✅ Topic 1: Basic JavaScript Logic: Variables, Operators, and Operations
-- Sum of integers, type coercion, swap variables
+### 1️⃣ Basic JavaScript Logic
+- Sum of two numbers
+- Type coercion & string concatenation
+- Swap variables (3 methods)
 - Operators: Arithmetic, Relational, Logical, Unary
-- Math functions: `Math.round()`, `Math.sqrt()`, `Math.random()`, etc.
-- Practical problems: Area, Perimeter, OTP generator
+- Math Functions: `round()`, `ceil()`, `floor()`, `trunc()`, `pow()`, `sqrt()`, `abs()`, `random()`, `toFixed()`
+- Problems:
+  - Rectangle area & perimeter
+  - OTP generator
+  - Triangle area (Heron’s formula)
+  - Circle circumference
 
 ---
 
-### ✅ Topic 2: Conditional Statements and Control Flow
-- `if`, `else`, `switch`, ternary operator
-- Problems: Valid user, shop discount, INR denomination, etc.
+### 2️⃣ Conditional Statements & Control Flow
+- If-Else, Ternary, Switch
+- Problems:
+  - Valid user checker
+  - Shop discount logic
+  - Utility bill (Biji bill)
+  - INR denomination
 
 ---
 
-### ✅ Topic 3: Loops
-- `for`, `while`, `do-while` loops
-- Print patterns, factorial, reverse digits, strong number, guess the number
+### 3️⃣ Loops
+- For, While, Do-While
+- Problems:
+  - Print "Hello" N times
+  - 1 to N and N to 1
+  - Sum & factorial
+  - Prime number
+  - Sum of digits
+  - Strong number
+  - Reverse number
+  - Guess the number
+  - Calculator app
 
 ---
 
-### ✅ Topic 4: Pattern Programming
-- Nested loops & star-pattern problems
+### 4️⃣ Pattern Programming
+- Nested loops
+- Classic pattern problems
 
 ---
 
-### ✅ Topic 5: Arrays
-- Static & dynamic arrays
-- Max, second max, reverse, zero/one segregation
+### 5️⃣ Arrays
+- Fixed vs Dynamic arrays
+- Accept user input
+- Problems:
+  - Sum of elements
+  - Max & second max
+  - Reverse array
+  - Shift zeros left, ones right
 
 ---
 
-### ✅ Topic 6: Strings
-- Reverse string, palindrome check, toggle case, frequency counter
+### 6️⃣ Strings
+- String methods
+- Problems:
+  - Character-by-character printing
+  - Reverse string
+  - Palindrome checker
+  - Toggle case
+  - Character frequency
 
 ---
 
-### ✅ Topic 7: Object-Oriented Programming (OOP)
-- Class, object, `this`, constructor, prototype, design problems
+### 7️⃣ Object-Oriented Programming
+- Class & Object
+- Constructor, `this`, Prototype
+- Design-based problems
 
 ---
 
-## 🚀 Real Game Starts Here
+## 🔥 The Real DSA Journey Begins Here
+
+### 8️⃣ Advanced Array Questions
+- Left/Right rotation by K
+- Remove duplicates (sorted array)
+- Merge sorted arrays
+- Best time to buy & sell stock
+- Sort colors
+- Kadane’s Algorithm
+- Moore’s Voting
+- Trapping Rain Water
 
 ---
 
-### ✅ Topic 8: Advanced Array Problems
-- Rotation, duplicate removal, merge sorted arrays
-- Kadane’s Algo, stock buy/sell, rainwater trapping, majority element
+### 9️⃣ Sorting Algorithms (Part 1)
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+
+### 🔟 Sorting Algorithms (Part 2)
+- Merge Sort
+- Quick Sort
 
 ---
 
-### ✅ Topic 9: Sorting Algorithms - Part 1
-- Bubble Sort, Selection Sort, Insertion Sort
+### 1️⃣1️⃣ Cyclic Sort
+- Missing number
+- Disappeared numbers
+- First missing positive
 
 ---
 
-### ✅ Topic 10: Sorting Algorithms - Part 2
-- Quick Sort, Merge Sort
+## 📌 Binary Search
+- Classic Binary Search
+- Search Insert Position
+- Rotated Sorted Array
+- Book Allocation
+- Koko Eating Bananas
+- Threshold limit problems
 
 ---
 
-### ✅ Topic 11: Cyclic Sort
-- Missing number, first positive, disappeared numbers
+## 🧠 Hashing
+- Frequency map
+- Unique elements
+- Pangram checker
+- Sort by people
+- Two Sum
+- Subarray sum equals K
+- Longest subarray with sum K
+- Longest consecutive sequence
 
 ---
 
-### ✅ Binary Search Problems
-- Classic binary search, rotated array, Koko eating bananas, book allocation
+## 🔗 Linked List
+- Implementation
+- Design LL
+- Find middle
+- Detect cycle
+- Reverse list
+- Delete node
+- Reverse in K groups
 
 ---
 
-### ✅ Hashing
-- Frequency count, two sum, pangram check, subarray with sum K
+## 📚 Stack & Queue
+- Stack & Queue implementation
+- Valid parentheses
+- Stack using queue
+- Queue using stack
+- Next greater element
+- Largest rectangle in histogram
 
 ---
 
-### ✅ Linked List
-- Basic operations, reverse, middle, cycle, k-group reverse
+## 🔁 Recursion & Backtracking
+- Print Hello N times
+- N to 1, 1 to N
+- Sum & factorial
+- Digit sum
+- Fibonacci (2 ways)
+- Tower of Hanoi
+- Josephus problem
+- Subsets & permutations
+- Combination sum
+- Sudoku solver
 
 ---
 
-### ✅ Stack and Queue
-- Implementations, valid parentheses, NGE, histograms
+## 🌳 Binary Tree
+- Implementation
+- DFS (Pre, In, Post)
+- Max depth
+- Symmetric tree
+- BFS
+- Left & Top view
+- Lowest Common Ancestor
+- Build tree (Preorder + Inorder)
 
 ---
 
-### ✅ Recursion & Backtracking
-- Fibonacci, Tower of Hanoi, subsets, permutations, Sudoku solver
+## 🌲 Binary Search Tree
+- Validate BST
+- Kth smallest in BST
+- Delete node from BST
 
 ---
 
-### ✅ Binary Tree
-- Traversals (DFS/BFS), max depth, symmetry, top/left view, LCA, tree construction
+## 🌐 Graph
+- Graph implementation
+- BFS & DFS
+- Cycle detection
+- Topological sort
+- Shortest Path Algorithms
 
 ---
 
-### ✅ Binary Search Tree (BST)
-- Validate BST, kth smallest, BST node deletion
+## ⚙️ Tech Stack
+- Language: JavaScript (ES6+)
+- Tools: Git, GitHub, Notion (for notes)
+- Practice Style: Problem-first, then explanation
 
 ---
 
-### ✅ Graphs
-- BFS, DFS, cycle detection, topological sort, shortest path algorithms
+## 🛠️ Setup
 
----
+```bash
+# Clone this repo
+git clone git@github.com:ExploitEngineer/js-data-structures-algorithms.git
 
-## 🧠 Goal
-Build a **solid understanding** of all DSA concepts in JavaScript and create an easy-to-reference solution base for future interviews and projects.
+# Move into project folder
+cd js-data-structures-algorithms
 
----
+🙌 Contribute
+If you find bugs or want to improve the code/docs:
 
-## 📌 Contribution
-This is a personal learning repository. However, feel free to fork it and use the structure for your own learning journey.
+Star ⭐ this repo
+Fork 🍴 the project
+Open a PR or Issue
 
----
+📄 License
+MIT License — feel free to use, modify, or share!
 
-## 📬 Stay Connected
-Follow my journey on [GitHub](https://github.com/ExploitEngineer) and feel free to connect if you’re learning along too!
-
----
-
-**Let's crack DSA together – one problem at a time. 💻✨**
+Happy coding, keep learning, and never stop solving! 🚀✨
 
