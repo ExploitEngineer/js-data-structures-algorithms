@@ -37,3 +37,32 @@ age = Number(age);
 console.log(typeof(age), age);
 */
 
+
+// Question: Swap two variables via 3 methods
+
+// Method1: swapping with extra variables
+let num5 = 10;
+let num6 = 20;
+let newnum = num5;
+num5 = num6;
+num6 = newnum;
+console.log(num5, num6);
+
+// Method2: Using simple mathematics
+num5 = num5 + num6; // 30
+num6 = num5 - num6; // 10
+num5 = num5 - num6; // 20
+
+// Method3: Using destrcturing
+[num5, num6] = [num6, num5];
+console.log(num5, num6);
+
+
+// Question: Arithmetic operations
+let num7 = 12;
+let num8 = 22;
+console.log(num7 + num8); // addition
+console.log(num7 - num8); // subtraction
+console.log(num7 * num8); // multiplication
+console.log(Math.floor(num7 / num8)); // division -> quotient
+console.log(num7 % num8); // modulus -> remainder
