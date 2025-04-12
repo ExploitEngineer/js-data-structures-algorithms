@@ -58,7 +58,7 @@ num5 = num5 - num6; // 20
 console.log(num5, num6);
 
 
-// Question: Arithmetic operations
+// Question: Arithmetic operators
 let num7 = 12;
 let num8 = 22;
 console.log(num7 + num8); // addition
@@ -66,3 +66,12 @@ console.log(num7 - num8); // subtraction
 console.log(num7 * num8); // multiplication
 console.log(Math.floor(num7 / num8)); // division -> quotient
 console.log(num7 % num8); // modulus -> remainder
+
+
+// Question: Relational operators
+console.log(10 > 5);
+console.log(10 < 5);
+console.log(10 >= 10);
+console.log(10 <= 7);
+console.log(10 !== 10);
+console.log(10 === 10);
