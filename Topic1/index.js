@@ -100,3 +100,19 @@ console.log(num12);
 
 // let num13 = 11++; // you cannot use this way directly on constant
 // console.log(num13);
+
+
+// Question: Math Functions
+console.log(Math.round(10.5));
+console.log(Math.ceil(10.1));
+console.log(Math.floor(10.9));
+console.log(Math.trunc(18.98)); // removes the decimal part
+console.log(Math.pow(2, 5)); // 2^5
+console.log(Math.sqrt(25));
+console.log(Math.cbrt(8));
+console.log(Math.abs(-15)); // absolute (converts negative value to positive)
+console.log(Math.max(78, 65, 12, 43)); // returns max value
+console.log(Math.min(12, 2, 34, 1)); // returns min value
+console.log(Math.trunc((Math.random() * 9000) + 1000)); // retuns between 0 to 1 if don't pass anything
+let num13 = 89.3243243;
+console.log(typeof num13.toFixed(2)); // 2 numbers after decimal but toFixed also covert number into string type
