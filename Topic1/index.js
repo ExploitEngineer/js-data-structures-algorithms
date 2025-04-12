@@ -83,4 +83,20 @@ console.log(10 < 6 || 15 < 9 || 18 > 9);
 console.log(!(10 > 6));
 
 
+// Question: Unary operators ( ++ -- )
+let i = 11;
+i = i++ + ++i;
+console.log(i);
 
+let num9 = 11, num10 = 22;
+let num11 = num9 + num10 + num9++ + num10++ + ++num9 + ++num10;
+console.log("num9=" + num9); // 13
+console.log("num10=" + num10); // 24
+console.log("num11=" + num11); // 103
+
+let num12 = true; // js consider true as 1 and false as 0
+num12++;
+console.log(num12);
+
+// let num13 = 11++; // you cannot use this way directly on constant
+// console.log(num13);
