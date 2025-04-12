@@ -75,3 +75,12 @@ console.log(10 >= 10);
 console.log(10 <= 7);
 console.log(10 !== 10);
 console.log(10 === 10);
+
+
+// Question: Logical operators
+console.log(10 > 6 && 5 < 9 && 18 > 9);
+console.log(10 < 6 || 15 < 9 || 18 > 9);
+console.log(!(10 > 6));
+
+
+
