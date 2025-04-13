@@ -116,3 +116,25 @@ console.log(Math.min(12, 2, 34, 1)); // returns min value
 console.log(Math.trunc((Math.random() * 9000) + 1000)); // retuns between 0 to 1 if don't pass anything
 let num13 = 89.3243243;
 console.log(typeof num13.toFixed(2)); // 2 numbers after decimal but toFixed also covert number into string type
+
+
+// Math problems
+// Question: calculate area and perimeter of rectangle
+let length = 5;
+let breadth = 7;
+console.log(length * breadth); // area
+console.log(2 * (length + breadth)); // perimeter
+
+// Question: Generate 6 digits OTP
+console.log(Math.trunc((Math.random() * 900000) + 100000));
+
+// Question: area of triangle by heron's formula (sqrt of s * (s-a) * (s-b) * (s-c))
+let value1 = 5;
+let value2 = 2;
+let value3 = 3;
+let s = (value1 + value2 + value3) / 2;
+console.log(Math.sqrt(s * (s - value1) * (s - value2) * (s - value3)));
+
+// Question: Circumference of circle
+let radius = 12;
+console.log((2 * Math.PI * radius).toFixed(2)); // circumference
