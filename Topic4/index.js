@@ -77,3 +77,41 @@ for (let i = 1; i <= 5; i++) {
   }
   console.log();
 }
+
+// mirror right angle triangle
+for (let i = 1; i <= 5; i++) {
+  // inverted
+  for (let j = 1; j <= 5 - i; j++) {
+    process.stdout.write("  ");
+  }
+
+  // right
+  for (let j = 1; j <= i; j++) {
+    process.stdout.write("* ");
+  }
+  console.log();
+}
+
+// X pattern
+for (let i = 1; i <= 5; i++) {
+  for (let j = 1; j <= 5; j++) {
+    if (j === i || j + i === 5 + 1) {
+      process.stdout.write("* ");
+    } else {
+      process.stdout.write("  ");
+    }
+  }
+  console.log();
+}
+
+// V pattern
+for (let i = 1; i <= 5; i++) {
+  for (let j = 1; j <= 2 * 5 - 1; j++) {
+    if (j === i || j + i === 9 + 1) {
+      process.stdout.write("* ");
+    } else {
+      process.stdout.write("  ");
+    }
+  }
+  console.log();
+}
