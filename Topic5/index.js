@@ -116,3 +116,13 @@ while (e < arr10.length) {
   e++;
 }
 console.log(arr10);
+
+// left rotation by 1 element
+let arr11 = [1, 2, 3, 4];
+let copy = arr11[0];
+
+for (let i = 0; i < arr11.length - 1; i++) {
+  arr11[i] = arr11[i + 1];
+}
+arr11[arr11.length - 1] = copy;
+console.log(arr11);
