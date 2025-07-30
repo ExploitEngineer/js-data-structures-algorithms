@@ -212,7 +212,7 @@ This project takes you from **JavaScript basics** all the way to **advanced DSA 
 
 ```bash
 # Clone this repo
-git clone git@github.com:ExploitEngineer/js-data-structures-algorithms.git
+git clone https://github.com/ExploitEngineer/js-data-structures-algorithms.git
 
 # Move into project folder
 cd js-data-structures-algorithms
