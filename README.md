@@ -10,7 +10,7 @@ This project takes you from **JavaScript basics** all the way to **advanced DSA 
 
 ## 📁 Topics Covered
 
-### 1️⃣ Basic JavaScript Logic
+### Basic JavaScript Logic
 - Sum of two numbers
 - Type coercion & string concatenation
 - Swap variables (3 methods)
@@ -24,7 +24,7 @@ This project takes you from **JavaScript basics** all the way to **advanced DSA 
 
 ---
 
-### 2️⃣ Conditional Statements & Control Flow
+### Conditional Statements & Control Flow
 - If-Else, Ternary, Switch
 - Problems:
   - Valid user checker
@@ -34,7 +34,7 @@ This project takes you from **JavaScript basics** all the way to **advanced DSA 
 
 ---
 
-### 3️⃣ Loops
+### Loops
 - For, While, Do-While
 - Problems:
   - Print "Hello" N times
@@ -49,13 +49,13 @@ This project takes you from **JavaScript basics** all the way to **advanced DSA 
 
 ---
 
-### 4️⃣ Pattern Programming
+### Pattern Programming
 - Nested loops
 - Classic pattern problems
 
 ---
 
-### 5️⃣ Arrays
+### Arrays
 - Fixed vs Dynamic arrays
 - Accept user input
 - Problems:
@@ -66,7 +66,7 @@ This project takes you from **JavaScript basics** all the way to **advanced DSA 
 
 ---
 
-### 6️⃣ Strings
+### Strings
 - String methods
 - Problems:
   - Character-by-character printing
@@ -77,7 +77,7 @@ This project takes you from **JavaScript basics** all the way to **advanced DSA 
 
 ---
 
-### 7️⃣ Object-Oriented Programming
+### Object-Oriented Programming
 - Class & Object
 - Constructor, `this`, Prototype
 - Design-based problems
@@ -86,7 +86,7 @@ This project takes you from **JavaScript basics** all the way to **advanced DSA 
 
 ## 🔥 The Real DSA Journey Begins Here
 
-### 8️⃣ Advanced Array Questions
+### Advanced Array Questions
 - Left/Right rotation by K
 - Remove duplicates (sorted array)
 - Merge sorted arrays
@@ -98,18 +98,18 @@ This project takes you from **JavaScript basics** all the way to **advanced DSA 
 
 ---
 
-### 9️⃣ Sorting Algorithms (Part 1)
+### Sorting Algorithms (Part 1)
 - Bubble Sort
 - Selection Sort
 - Insertion Sort
 
-### 🔟 Sorting Algorithms (Part 2)
+### Sorting Algorithms (Part 2)
 - Merge Sort
 - Quick Sort
 
 ---
 
-### 1️⃣1️⃣ Cyclic Sort
+### Cyclic Sort
 - Missing number
 - Disappeared numbers
 - First missing positive
