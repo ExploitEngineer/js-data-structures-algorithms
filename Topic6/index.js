@@ -88,4 +88,27 @@ for (let i = 0; i < nums1.length - 1; i++) {
     j1++;
   }
 }
-return j1;
+console.log(j1);
+
+// Merge two sorted Arrays
+let arr7 = [2, 5, 6];
+let arr8 = [1, 3, 4, 8];
+let merge = new Array(arr7.length + arr8.length);
+let i = (j = k = 0);
+
+while (i < arr7.length && j < arr8.length) {
+  if (arr7[i] < arr8[j]) {
+    merge[k++] = arr7[i++];
+  } else {
+    merge[k++] = arr8[j++];
+  }
+}
+
+while (j < arr8.length) {
+  merge[k++] = arr8[j++];
+}
+
+while (i < arr7.length) {
+  merge[k++] = arr7[i++];
+}
+console.log(merge);
