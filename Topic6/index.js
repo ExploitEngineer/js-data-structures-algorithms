@@ -59,3 +59,22 @@ for (let i = 0; i < arr5.length; i++) {
   temp[i] = arr5[(i + k3) % arr5.length];
 }
 console.log(temp);
+
+// Left rotation of an Array using reversal algorithm
+let arr6 = [1, 2, 3, 4, 5];
+let k4 = Number(prompt("Enter a value"));
+k4 = k4 % arr6.length;
+reverse(0, k4 - 1);
+reverse(k4, arr6.length - 1);
+reverse(0, arr6.length - 1);
+console.log(arr6);
+
+function reverse(i, j) {
+  while (i < j) {
+    let temp = arr6[i];
+    arr6[i] = arr6[j];
+    arr6[j] = temp;
+    i++;
+    j--;
+  }
+}
