@@ -78,3 +78,14 @@ function reverse(i, j) {
     j--;
   }
 }
+
+// Remove duplicates from sorted array using two pointers algorithm
+let nums1 = [1, 1, 2, 2, 3, 4, 4];
+let j1 = 1;
+for (let i = 0; i < nums1.length - 1; i++) {
+  if (nums1[i] != nums1[i + 1]) {
+    nums1[j] = nums1[i + 1];
+    j1++;
+  }
+}
+return j1;
