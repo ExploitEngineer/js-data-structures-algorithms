@@ -21,3 +21,16 @@ for (let i = arr2.length - 1; i > 0; i--) {
 }
 arr2[0] = copy2;
 console.log(arr2);
+
+// Left rotation by k elements
+let arr3 = [1, 2, 3, 4, 5];
+let k = Number(prompt("Enter k value"));
+
+for (let j = 0; j < k; j++) {
+  let copy3 = arr3[0];
+  for (let i = 0; i < arr3.length - 1; i++) {
+    arr3[i] = arr3[i + 1];
+  }
+  arr3[arr3.length - 1] = copy3;
+}
+console.log(arr3);
