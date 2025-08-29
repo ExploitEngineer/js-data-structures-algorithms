@@ -24,8 +24,8 @@ console.log(arr2);
 
 // Left rotation by k elements
 let arr3 = [1, 2, 3, 4, 5];
-let k = Number(prompt("Enter k value"));
-k = k % arr3.length;
+let k1 = Number(prompt("Enter k value"));
+k1 = k1 % arr3.length;
 
 for (let j = 0; j < k; j++) {
   let copy3 = arr3[0];
@@ -35,3 +35,16 @@ for (let j = 0; j < k; j++) {
   arr3[arr3.length - 1] = copy3;
 }
 console.log(arr3);
+
+// Right rotation by k elements
+let arr4 = [1, 2, 3, 4, 5];
+let k2 = 5;
+k2 = k2 % arr4.length;
+for (let j = 0; j < k; j++) {
+  let copy2 = arr4[arr4.length - 1];
+  for (let i = arr4.length - 1; i > 0; i--) {
+    arr4[i] = arr4[i - 1];
+  }
+  arr4[0] = copy2;
+}
+console.log(arr4);
