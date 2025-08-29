@@ -48,3 +48,14 @@ for (let j = 0; j < k; j++) {
   arr4[0] = copy2;
 }
 console.log(arr4);
+
+// Left rotation by k element with efficient way
+let arr5 = [1, 2, 3, 4, 5];
+let temp = new Array(arr5.length);
+let k3 = Number(prompt("Enter k value"));
+k3 = k3 % arr5.length;
+
+for (let i = 0; i < arr5.length; i++) {
+  temp[i] = arr5[(i + k3) % arr5.length];
+}
+console.log(temp);
